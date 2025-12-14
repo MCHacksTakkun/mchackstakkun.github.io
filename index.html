@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Minecraft Clients</title>
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#10b981;
+      --muted:#94a3b8;
+      --glass: rgba(255,255,255,0.04);
+      --radius:14px;
+      font-family: Inter, "Noto Sans JP", system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071029 0%,var(--bg) 100%);color:#e6eef6}
+    .wrap{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      box-sizing:border-box;
+    }
+    .container{
+      width:100%;
+      max-width:980px;
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:20px;
+      padding:28px;
+      box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+      backdrop-filter: blur(6px);
+    }
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:18px;
+    }
+    .title{
+      display:flex;
+      gap:14px;
+      align-items:center;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:#042027;font-size:20px;
+      box-shadow: 0 6px 18px rgba(16,185,129,0.12), inset 0 -6px 18px rgba(255,255,255,0.03);
+    }
+    h1{font-size:20px;margin:0}
+    p.lead{margin:0;color:var(--muted);font-size:14px}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:18px;
+      margin-top:18px;
+    }
+    .card{
+      background:linear-gradient(180deg,var(--card), rgba(255,255,255,0.02));
+      border-radius:var(--radius);
+      padding:18px;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      transition:transform .18s ease, box-shadow .18s ease;
+      cursor:pointer;
+      text-decoration:none;
+      color:inherit;
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    .card:focus, .card:hover{
+      transform:translateY(-6px);
+      box-shadow: 0 18px 40px rgba(2,6,23,0.6), 0 6px 18px rgba(16,185,129,0.06);
+      outline: none;
+      border-color: rgba(16,185,129,0.18);
+    }
+    .card .head{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+    .icon{
+      width:56px;height:56px;border-radius:10px;background:var(--glass);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);
+      font-size:20px;
+    }
+    .card h2{margin:0;font-size:18px}
+    .card p{margin:0;color:var(--muted);font-size:13px}
+    .actions{
+      margin-top:auto;
+      display:flex;
+      gap:10px;
+      align-items:center;
+    }
+    .btn{
+      background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--accent);padding:8px 12px;border-radius:10px;font-weight:600;font-size:13px;text-decoration:none;
+    }
+    .btn.secondary{color:var(--muted);border-color:rgba(255,255,255,0.03)}
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:520px){
+      .logo{width:48px;height:48px}
+      .card{padding:14px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="container" role="main">
+      <header>
+        <div class="title" aria-hidden="false">
+          <div class="logo" aria-hidden="true">PvP</div>
+          <div>
+            <h1>Minecraft Clients</h1>
+            <p class="lead">統合版（Bedrock）かJava版を選んでください</p>
+          </div>
+        </div>
+        <nav aria-label="ヘルプ">
+          <a class="btn secondary" href="#" id="aboutBtn">使い方</a>
+        </nav>
+      </header>
+
+      <section aria-label="エディション選択">
+        <div class="grid">
+          <!-- 統合版カード -->
+          <a class="card" href="https://mcclients.f5.si/bedrock" id="bedrockCard" role="button" aria-pressed="false">
+            <div class="head">
+              <div class="icon" aria-hidden="true">B</div>
+              <div>
+                <h2>統合版 Bedrock</h2>
+                <p>スマホ・コンソール・Windows 10/11 向けのクライアント一覧</p>
+              </div>
+            </div>
+            <p>おすすめのPvPクライアントをカードで表示します。タップで詳細ページへ移動します。</p>
+            <div class="actions">
+              <span class="btn">一覧を見る</span>
+              <span class="btn secondary">詳細</span>
+            </div>
+          </a>
+
+          <!-- Java版カード -->
+          <a class="card" href="https://mcclients.f5.si/java" id="javaCard" role="button" aria-pressed="false">
+            <div class="head">
+              <div class="icon" aria-hidden="true">J</div>
+              <div>
+                <h2>Java版</h2>
+                <p>PC向けのModやクライアントを集めた一覧</p>
+              </div>
+            </div>
+            <p>Java版向けのクライアントをまとめています。カードを押すと外部ページへ移動します。</p>
+            <div class="actions">
+              <span class="btn">一覧を見る</span>
+              <span class="btn secondary">詳細</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <footer>
+        <small>カードをクリックすると指定したURLに移動します。</small>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // キーボード操作と簡単なアクセシビリティ補助
+    document.querySelectorAll('.card').forEach(card=>{
+      card.addEventListener('keydown', e=>{
+        if(e.key === 'Enter' || e.key === ' '){
+          e.preventDefault();
+          card.click();
+        }
+      });
+      card.addEventListener('click', ()=>{
+        // aria-pressed を切り替え（視覚的な状態管理に利用）
+        const pressed = card.getAttribute('aria-pressed') === 'true';
+        card.setAttribute('aria-pressed', String(!pressed));
+        // 実際の遷移は href に任せる（外部リンクを開く）
+      });
+    });
+
+    // About ボタンの簡易モーダル（シンプルな説明）
+    const aboutBtn = document.getElementById('aboutBtn');
+    aboutBtn.addEventListener('click', (e)=>{
+      e.preventDefault();
+      alert('統合版はBedrock Edition、Java版はPC向けのEditionです。カードをクリックすると各版のクライアント一覧ページへ移動します。');
+    });
+  </script>
+</body>
+</html>
