@@ -20,5 +20,17 @@
     "icon": "OderSo",
     "download": "https://github.com/MCHacksTakkun/ClientDL/releases/download/oderso/OderSo.Launcher.exe",
     "discord": "https://discord.com/invite/oderso"
+  },
+  {
+    "name": "Latite Client",
+    "short": "PVP向け軽量クライアント",
+    "description": "Latite Clientは古いクライアントですが、PvP modが豊富でPVPに向いています",
+    "version": "2",
+    "author": "CreativeMC",
+    "icon": "LA",
+    "download": "https://raw.githubusercontent.com/Imrglop/Latite-Releases/main/injector/Installer.exe",
+    "website": "https://latite.net/",
+    "youtube": "https://www.youtube.com/watch?v=h3v849ayuZY",
+    "discord": "https://discord.com/invite/latite-client-885656043521179680"
   }
 ]
