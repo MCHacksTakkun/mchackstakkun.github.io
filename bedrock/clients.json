@@ -45,17 +45,6 @@
     "discord": "https://discord.com/invite/horion"
   },
   {
-    "name": "Horion Client",
-    "short": "Horionは古くからある最も有名なチートクライアントです",
-    "description": "Horion Clientはかなり昔からあり、主に荒らしなどで使われていましたが、最近のマイクラのアプデでほとんど使用できなくなりました",
-    "version": "1.2.1",
-    "author": "Unknown",
-    "icon": "HO",
-    "download": "https://horion.download/injector",
-    "website": "https://horion.download/",
-    "discord": "https://discord.com/invite/horion"
-  },
-  {
     "name": "Solstice Client",
     "short": "Solsticeは古くからあるチートクライアントであり、主にPVP向けです",
     "description": "SolsticeはHiveなどのAntiCheatをBypassすることに重点を置いており、うまく使えばBANやKickをされずにチートをすることができます",
