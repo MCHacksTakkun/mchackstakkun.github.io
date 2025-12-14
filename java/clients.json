@@ -1,24 +1,26 @@
 [
   {
-    "name": "Java Client X",
-    "short": "高機能なPvPクライアント（Java）",
-    "description": "Java Client X は豊富なHUDとカスタムモジュールを備えたPC向けPvPクライアントです。",
-    "version": "3.4.1",
-    "author": "作者X",
-    "icon": "X",
-    "download": "https://java-client-x.example/download",
-    "website": "https://java-client-x.example",
-    "youtube": "https://www.youtube.com/watch?v=VIDEO_ID",
-    "discord": "https://discord.gg/example"
+    "name": "Lunar Client",
+    "short": "PVP向けクライアント",
+    "description": "Lunar Clientは豊富なHUDとカスタムモジュールを備えたPVP向けクライアントです。",
+    "version": "Unknown",
+    "author": "Physci",
+    "icon": "Lunar",
+    "download": "https://www.lunarclient.com/download",
+    "website": "https://www.lunarclient.com",
+    "youtube": "https://www.youtube.com/watch?v=V17mDby6v68",
+    "discord": "https://discord.gg/lunarclient"
   },
   {
-    "name": "Java Client Y",
-    "short": "軽量で安定した動作",
-    "description": "Java Client Y は軽量でFPSに優れたクライアントです。設定がシンプルで導入が容易です。",
-    "version": "2.0.0",
-    "author": "作者Y",
-    "icon": "Y",
-    "download": "https://java-client-y.example/download",
-    "youtube": "https://youtu.be/ANOTHER_ID"
+    "name": "Feather Client",
+    "short": "独自のModを追加可能",
+    "description": "Feather Clientは独自のModを追加することができ、サバイバル向けのクライアントです。",
+    "version": "Unknown",
+    "author": "Brend4n",
+    "icon": "Feather",
+    "download": "https://feathermc.com",
+    "website": "https://feathermc.com",
+    "youtube": "https://www.youtube.com/c/featherclient",
+    "discord": "https://discord.com/invite/feather"
   }
 ]
