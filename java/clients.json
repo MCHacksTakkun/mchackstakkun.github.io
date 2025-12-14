@@ -22,5 +22,17 @@
     "website": "https://feathermc.com",
     "youtube": "https://www.youtube.com/c/featherclient",
     "discord": "https://discord.com/invite/feather"
+  },
+  {
+    "name": "Badlion Client",
+    "short": "軽量化に特化したクライアント",
+    "description": "Badlion Clientは軽量化に特化し、PVP向けに開発されました。最近Lunar Clientに買収され、Lunar Launcherからも起動できるようになりました。",
+    "version": "1.0.0",
+    "author": "Unknown",
+    "icon": "BC",
+    "download": "https://www.badlion.net/minecraft-client",
+    "website": "https://www.badlion.net/minecraft-client",
+    "youtube": "https://www.youtube.com/watch?v=-4OXJ0VSzeQ",
+    "discord": "https://discord.com/invite/badlion"
   }
 ]
