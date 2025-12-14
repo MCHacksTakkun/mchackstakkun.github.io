@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bedrock Clients Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <h1>クライアント管理</h1>
+      <p class="lead">clients.json を読み込んで追加・編集・削除し、更新ファイルをダウンロードします。</p>
+    </header>
+
+    <main class="main">
+      <section class="left">
+        <div class="controls">
+          <label class="fileLabel">
+            <input id="fileInput" type="file" accept=".json" />
+            <span>clients.json を読み込む</span>
+          </label>
+          <button id="newBtn" class="btn">新規リストを作成</button>
+          <button id="downloadBtn" class="btn primary">更新ファイルをダウンロード</button>
+          <button id="copyBtn" class="btn">JSON をクリップボードにコピー</button>
+        </div>
+
+        <div id="list" class="list" aria-live="polite"></div>
+      </section>
+
+      <aside class="right">
+        <form id="editor" class="editor" autocomplete="off">
+          <h2 id="editorTitle">新しいクライアントを追加</h2>
+
+          <label>名前 name（必須）
+            <input id="f_name" name="name" required />
+          </label>
+
+          <label>短い説明 short
+            <input id="f_short" name="short" />
+          </label>
+
+          <label>詳細 description
+            <textarea id="f_description" name="description" rows="4"></textarea>
+          </label>
+
+          <label>バージョン version
+            <input id="f_version" name="version" />
+          </label>
+
+          <label>作者 author
+            <input id="f_author" name="author" />
+          </label>
+
+          <label>アイコン表示 icon（1文字や絵文字）
+            <input id="f_icon" name="icon" maxlength="2" />
+          </label>
+
+          <label>ダウンロードURL download（必須）
+            <input id="f_download" name="download" required />
+          </label>
+
+          <label>公式サイト website
+            <input id="f_website" name="website" />
+          </label>
+
+          <label>YouTube URL youtube
+            <input id="f_youtube" name="youtube" />
+          </label>
+
+          <label>Discord invite discord
+            <input id="f_discord" name="discord" />
+          </label>
+
+          <div class="editorActions">
+            <button id="addBtn" class="btn primary" type="button">追加</button>
+            <button id="updateBtn" class="btn" type="button" hidden>更新</button>
+            <button id="resetBtn" class="btn" type="button">リセット</button>
+          </div>
+
+          <div id="validation" class="validation" aria-live="assertive"></div>
+        </form>
+      </aside>
+    </main>
+
+    <footer class="foot">
+      <small>編集後は「更新ファイルをダウンロード」して、サイトのルートにある clients.json を置き換えてください。</small>
+    </footer>
+  </div>
+
+  <script src="admin.js" defer></script>
+</body>
+</html>
