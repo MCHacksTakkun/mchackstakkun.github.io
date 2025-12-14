@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bedrock Clients</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">Bedrock</div>
+        <div>
+          <h1>統合版 クライアント</h1>
+          <p class="subtitle">カードを選択すると詳細が表示されます</p>
+        </div>
+      </div>
+      <div class="controls">
+        <input id="search" type="search" placeholder="検索する" aria-label="クライアント検索" />
+        <button id="refreshBtn" class="btn">再読み込み</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="list" aria-label="クライアント一覧">
+        <div id="cards" class="cards" role="list"></div>
+      </section>
+
+      <aside id="detail" class="detail" aria-hidden="true" aria-label="クライアント詳細">
+        <button id="closeDetail" class="close" aria-label="閉じる">×</button>
+        <div id="detailContent" class="detailContent">
+          <!-- 動的に埋める -->
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <small>クライアント情報は clients.json を編集して追加できます。</small>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
