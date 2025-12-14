@@ -53,5 +53,15 @@
     "icon": "SO",
     "download": "https://x.gd/savZU",
     "discord": "https://discord.gg/5S8JcAmQ4b"
+  },
+  {
+    "name": "Nitr0 Client",
+    "short": "統合版のGhost Client",
+    "description": "Nitr0 Clientは、Ghost Clientとして有名です。Auto Clickerなども優秀でAntiCheatに検知されることはあまりありません",
+    "version": "1.0.0",
+    "author": "Unknown",
+    "icon": "N0",
+    "download": "https://nitr0.club/api/download",
+    "website": "https://nitr0.club/"
   }
 ]
