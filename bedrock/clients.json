@@ -32,5 +32,16 @@
     "website": "https://latite.net/",
     "youtube": "https://www.youtube.com/watch?v=h3v849ayuZY",
     "discord": "https://discord.com/invite/latite-client-885656043521179680"
+  },
+  {
+    "name": "Horion Client",
+    "short": "Horionは古くからある最も有名なチートクライアントです",
+    "description": "Horion Clientはかなり昔からあり、主に荒らしなどで使われていましたが、最近のマイクラのアプデでほとんど使用できなくなりました",
+    "version": "1.2.1",
+    "author": "Unknown",
+    "icon": "HO",
+    "download": "https://horion.download/injector",
+    "website": "https://horion.download/",
+    "discord": "https://discord.com/invite/horion"
   }
 ]
