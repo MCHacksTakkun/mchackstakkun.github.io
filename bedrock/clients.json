@@ -8,16 +8,16 @@
     "icon": "Flarial",
     "download": "https://raw.githubusercontent.com/flarialmc/newcdn/main/launcher/Flarial.Launcher.exe",
     "website": "https://flarial.xyz",
-    "youtube": "https://www.youtube.com/@flarialclient",
+    "youtube": "https://www.youtube.com/watch?v=yMAhICPSP1w",
     "discord": "https://flarial.xyz/discord"
   },
   {
-    "name": "Client B",
-    "short": "スマホ向けに最適化",
-    "description": "Client Bはタッチ操作に最適化されたUIを提供します。軽量でバッテリー消費が少ないのが特徴です。",
-    "version": "0.9.0",
-    "author": "別の作者",
-    "icon": "B",
+    "name": "OderSo Client",
+    "short": "ユーティリティ機能の多いクライアント",
+    "description": "OderSoクライアントは数あるクライアントの中でもトップクラスに機能が多く、拡張性の高いクライアントです。",
+    "version": "1.0.0",
+    "author": "Unknown",
+    "icon": "OderSo",
     "download": "https://client-b.example/download",
     "youtube": "https://youtu.be/ANOTHER_ID"
   }
