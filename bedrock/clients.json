@@ -27,7 +27,7 @@
     "description": "Latite Clientは古いクライアントですが、PvP modが豊富でPVPに向いています",
     "version": "2",
     "author": "CreativeMC",
-    "icon": "LA",
+    "icon": "Latite",
     "download": "https://raw.githubusercontent.com/Imrglop/Latite-Releases/main/injector/Installer.exe",
     "website": "https://latite.net/",
     "youtube": "https://www.youtube.com/watch?v=h3v849ayuZY",
@@ -39,7 +39,7 @@
     "description": "Horion Clientはかなり昔からあり、主に荒らしなどで使われていましたが、最近のマイクラのアプデでほとんど使用できなくなりました",
     "version": "1.2.1",
     "author": "Unknown",
-    "icon": "HO",
+    "icon": "Horion",
     "download": "https://horion.download/injector",
     "website": "https://horion.download/",
     "discord": "https://discord.com/invite/horion"
@@ -50,7 +50,7 @@
     "description": "SolsticeはHiveなどのAntiCheatをBypassすることに重点を置いており、うまく使えばBANやKickをされずにチートをすることができます",
     "version": "Unknown",
     "author": "Unknown",
-    "icon": "SO",
+    "icon": "Sol",
     "download": "https://x.gd/savZU",
     "discord": "https://discord.gg/5S8JcAmQ4b"
   },
@@ -60,7 +60,7 @@
     "description": "Nitr0 Clientは、Ghost Clientとして有名です。Auto Clickerなども優秀でAntiCheatに検知されることはあまりありません",
     "version": "1.0.0",
     "author": "Unknown",
-    "icon": "N0",
+    "icon": "Nitr0",
     "download": "https://nitr0.club/api/download",
     "website": "https://nitr0.club/"
   }
