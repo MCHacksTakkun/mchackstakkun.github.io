@@ -34,5 +34,16 @@
     "website": "https://www.badlion.net/minecraft-client",
     "youtube": "https://www.youtube.com/watch?v=-4OXJ0VSzeQ",
     "discord": "https://discord.com/invite/badlion"
+  },
+  {
+    "name": "Epitaph Client(Astro)",
+    "short": "Best Sword PvP Client",
+    "description": "Epitaph Clientは現在存在するクライアントの中でも最高のSword PvPクライアントです",
+    "version": "1.0.0",
+    "author": "Cyde",
+    "icon": "E",
+    "download": "https://discord.com/invite/6JmyUWHVKx",
+    "website": "http://epitaph.wtf/",
+    "discord": "https://discord.com/invite/6JmyUWHVKx"
   }
 ]
