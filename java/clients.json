@@ -45,5 +45,16 @@
     "download": "https://discord.com/invite/6JmyUWHVKx",
     "website": "http://epitaph.wtf/",
     "discord": "https://discord.com/invite/6JmyUWHVKx"
+  },
+  {
+    "name": "DoomsDay Ghost Client",
+    "short": "DoomsDay Clientは無料のインジェクト式クライアントです",
+    "description": "DoomsDay Ghost Clientは最高の無料インジェクトクライアントです。CrystalPVPやPVP向けです",
+    "version": "1.0.0",
+    "author": "Unknown",
+    "icon": "DD",
+    "download": "https://doomsdayclient.com/",
+    "website": "https://doomsdayclient.com/",
+    "discord": "https://discord.com/invite/vW6naJkMqJ"
   }
 ]
